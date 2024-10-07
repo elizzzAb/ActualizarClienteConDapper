@@ -1,0 +1,15 @@
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.csproj.AssemblyReference.cache
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.Form1.resources
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.Properties.Resources.resources
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.csproj.GenerateResource.cache
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.csproj.CoreCompileInputs.cache
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\ActualizarClienteDapper.exe.config
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\ActualizarClienteDapper.exe
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\ActualizarClienteDapper.pdb
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\AccesoDatos.dll
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\Dapper.dll
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\AccesoDatos.pdb
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\bin\Debug\Dapper.xml
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.csproj.CopyComplete
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.exe
+C:\Users\Elizabeth\Desktop\ActualizarClienteDapper\ActualizarClienteDapper\obj\Debug\ActualizarClienteDapper.pdb
