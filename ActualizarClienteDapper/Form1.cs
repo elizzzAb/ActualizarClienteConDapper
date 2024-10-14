@@ -42,7 +42,7 @@ namespace ActualizarClienteDapper
             txtNombre.Text = customers.Nombre;
             txtDescripcion.Text = customers.Descripcion;
             txtPrecio.Text = customers.Precio.ToString();
-            txtStock.Text = customers.Stock;
+            txtStock.Text = customers.Stock.ToString();
             txtMarca.Text = customers.Marca;
             txtCategoria.Text = customers.Categoria;
         }
@@ -55,7 +55,7 @@ namespace ActualizarClienteDapper
                 Nombre = txtNombre.Text,
                 Descripcion = txtDescripcion.Text,
                 Precio = decimal.TryParse(txtPrecio.Text, out var precio) ? precio : 0m,
-                Stock = txtStock.Text,
+                Stock = int.TryParse(txtStock.Text, out var stock) ? stock : 0,
                 Marca = txtMarca.Text,
                 Categoria = txtCategoria.Text,
 
@@ -71,8 +71,28 @@ namespace ActualizarClienteDapper
             dgvCustomer.DataSource = new List<Customers> { cliente };
 
 
-            MessageBox.Show($"filas actualizadas {actualizados} , {clienteActualizado.Id}");
+            MessageBox.Show($"Filas actualizadas {actualizados} , {clienteActualizado.Id}");
 
         }
+        private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Para permitir solo dígitos, el punto decimal y el carácter de retroceso
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+            {
+                // Si no es válido, cancela el carácter (evita que se ingrese)
+                e.Handled = true;
+            }
+        }
+
+        private void txtStock_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Para verificar si el carácter ingresado no es un control (como Backspace) y no es un dígito
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                // Si no es válido, cancela el carácter (evita que se ingrese)
+                e.Handled = true;
+            }
+        }
+
     }
 }
